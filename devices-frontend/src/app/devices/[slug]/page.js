@@ -8,7 +8,7 @@ async function getDevice(slug) {
   return res.json();
 }
 
-async function getLocations(slug) {
+async function getLocations() {
   const endpoint = `http://0.0.0.0:8000/api/locations`;
   const res = await fetch(endpoint);
   if (!res.ok) {

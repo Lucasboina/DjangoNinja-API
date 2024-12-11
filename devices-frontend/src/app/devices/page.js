@@ -20,6 +20,9 @@ export default async function Devices() {
           </p>
         ))}
       </div>
+      <Link href="/devices/create/">
+        <button className="btn btn-primary mt-4">Add Device</button>
+      </Link>
     </div>
   );
 }
